@@ -1,0 +1,743 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--------Header site------->
+    <header>
+        <div class="logo"><span>My</span>PortFolio</div>
+        <ul class="navlist">
+            <li><a href="#home" style="--i:1;">Home</a></li>
+            <li><a href="#about" style="--i:2;">About</a></li>
+            <li><a href="#service" style="--i:3;">Service</a></li>
+            <li><a href="#skills" style="--i:4;">Skills</a></li>
+            <li><a href="#portfolio" style="--i:5;">Portfolio</a></li>
+            <li><a href="#contact" style="--i:6;">Contact</a></li>
+        </ul>
+        <div id="menu-icon" class="bx bx-menu"></div>
+    </header>
+
+     <!--------Home section------->
+     <section id="home" class="home">
+        <div class="home-content scroll-scale">
+            <h1>Hi, I'm Jonathan Adayehi</h1>
+            <div class="change-text">
+                <h3>And I'm</h3>
+                <h3>
+                  
+                    <span class="word">Frontend &nbsp;Developer</span>
+                    <span class="word">Backend &nbsp;Developer</span>
+                    <span class="word">UI/UX &nbsp;Designer</span>
+                    <span class="word">GIS &nbsp;Expert: Map,&nbsp; analysis&nbsp; etc</span>
+                    <span class="word">Graphic &nbsp;Designer</span>
+                </h3>
+            </div>
+
+            <p>Recognized for unparalleled dedication, I epitomize hard work, consistently striving for excellence in all endeavors. My innate creativity fuels innovative solutions, infusing projects with fresh perspectives and originality. Driven by a relentless pursuit of success, I am inherently result-oriented, meticulously crafting strategies to achieve objectives efficiently and effectively. With a combination of diligence, creativity, and a focus on outcomes, I am poised to tackle any challenge and deliver exceptional results..</p>
+
+            <div class="info-box">
+                <div class="email-info">
+                    <h5>Email Address :</h5>
+                    <span>adayehioche@gmail.com</span>
+                </div>
+
+                <div class="behance-info">
+                    <h5>Phone Number :</h5>
+                   <span>+234 8105614442</span> 
+                </div>
+            </div>
+
+            <div class="btn-box " >
+                <a href="cv.pdf" class="btn" download>Download CV</a>
+
+                <!--<a href="#" id="toggle-section2" class="btn">Hire Me Now</a>-->
+                <a href="#" id="toggle-section2" class="btn" style=" color: white; ">Hire Me Now</a>
+            </div>
+
+            <div class="social-icons">
+                <a href="#" ><i class='bx bxl-facebook'></i></a>
+                <a href="#" ><i class='bx bxl-instagram' ></i></a>
+                <a href="#" ><i class='bx bxl-twitter' ></i></a>
+                <a href="#" ><i class='bx bxl-whatsapp' ></i></a>
+            </div>
+        </div>
+
+        <div class="home-image scroll-scale">
+            <div class="img-box">
+                <img src="images/you1.png" alt="">
+            </div>
+
+         <!---<div class="liquid-shape">
+            <svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" id="blobSvg">
+              <path fill="#12f7ff">
+                <animate attributeName="d"
+                dur="20000ms"
+                repeatCount="indefinite"
+                values="
+                
+
+                M405.5,294Q402,338,386,397.5Q370,457,310,448.5Q250,440,201,430Q152,420,112.5,386Q73,352,83,301Q93,250,71,192Q49,134,89,87.5Q129,41,189.5,46Q250,51,302,60.5Q354,70,376,117Q398,164,403.5,207Q409,250,405.5,294Z;
+
+                M441.5,295.5Q407,341,376.5,378.5Q346,416,298,410Q250,404,208.5,399Q167,394,103,383Q39,372,56,311Q73,250,69.5,197Q66,144,96.5,90.5Q127,37,188.5,42Q250,47,297.5,66.5Q345,86,396,111Q447,136,461.5,193Q476,250,441.5,295.5Z;
+
+                M446.5,299Q419,348,379.5,377Q340,406,295,406.5Q250,407,200,415Q150,423,99.5,394.5Q49,366,62.5,308Q76,250,65,193.5Q54,137,90.5,87Q127,37,188.5,67.5Q250,98,308.5,72.5Q367,47,386.5,103.5Q406,160,440,205Q474,250,446.5,299Z;
+
+                M459,308.5Q453,367,406,402.5Q359,438,304.5,469Q250,500,212,441Q174,382,110.5,374.5Q47,367,62.5,308.5Q78,250,80,201.5Q82,153,108.5,101.5Q135,50,192.5,40.5Q250,31,289.5,72Q329,113,390,123.5Q451,134,458,192Q465,250,459,308.5Z;
+
+                M429,287.5Q380,325,356,358.5Q332,392,291,432Q250,472,199,449.5Q148,427,104,393.5Q60,360,69.5,305Q79,250,67,194Q55,138,99.5,102.5Q144,67,197,67Q250,67,303.5,65.5Q357,64,390,107Q423,150,450.5,200Q478,250,429,287.5Z;
+
+                M460.5,309Q454,368,405.5,401.5Q357,435,303.5,429Q250,423,203.5,417Q157,411,97.5,391.5Q38,372,54,311Q70,250,68,197Q66,144,104.5,104Q143,64,196.5,55Q250,46,300.5,60Q351,74,382.5,114.5Q414,155,440.5,202.5Q467,250,460.5,309Z;
+                ">
+                </animate>
+              </path>
+            </svg>
+          </div>
+
+--> 
+
+        </div>
+     </section>
+
+      <!--------About section------->
+    <section id="about" class="about">
+        <div class="img-about scroll-scale">
+            <img src="images/about.png" alt="">
+  <div class="info-about1">
+    <span>10+</span>
+    <p>Years of Experience</p>
+  </div>
+
+  <div class="info-about2">
+    <span>10+</span>
+    <p>Project completed</p>
+  </div>
+
+  <div class="info-about3">
+    <span>100+</span>
+    <p>Happy Students</p>
+  </div>
+        </div>
+
+        <div class="about-content scroll-scale">
+           
+            <h2>About Me</h2>
+            
+            <p> 
+              I am Jonathan Adayehi, a <span style="color:aqua">University graduate</span> and <span span style="color:aqua;">ALX Software Engineering Program backend graduate</span>. With <span  style="color:aqua">META's support, I mastered frontend development.</span> Currently, I am enhancing my skills in <span style="color:aqua;">cybersecurity with Google.</span> My journey reflects a commitment to continuous growth and a passion for crafting secure, innovative web solutions. Armed with a diverse skill set, I aim to create creative, smooth online experiences and contribute positively to the evolving landscape of technology.
+            </p>
+
+            
+        </div>
+
+
+       
+    </section>
+
+
+        <!--------hier section------->
+        <section  id="section2" class="contact " style=" height: 100vh;width: 100%;">
+          <div class="main-text scroll-scale">
+            <h2>Brief About Me</h2>
+            <span style="color: white;">I am a dedicated and hard working individual, with focus to accomplished my given task at the appointed time. I also love working with like minded people, people who hate laziness and are high minded, people who think outside the box, they see an ostacle as another stepping stone to greater height and to learn new thing, people that imporsibility is not in their dictionary. hier me and see my words transilated to actions that will give you satisfaction</span>
+            <h2>May I Please Know You?</h2>
+          </div>
+<form action="#" class="scale-bottom">
+  <input type="text" placeholder="Your Name" required>
+  <input type="email" placeholder="Your Email" required>
+  <input type="text" placeholder="Location" required>
+  <input type="text" placeholder="Type of Job" required>
+  <input type="number" placeholder="Phone Number" required>
+  <textarea name="" id="" cols="30" rows="10" placeholder="Please give details" required></textarea>
+  <div class="btn-box formBtn" >
+  <button type="submit" class="btn">Send Message</button>
+</div>
+<button class="close-button" id="close-section2" style="display: none;">CLOSE</button>
+</form>
+        </section> 
+     <!--------more about section------->
+  <details>
+    <summary style="width: 14%;margin-left: 3%; z-index: 999; position: sticky;">
+    Read More!
+ </summary>
+        <section class="service" id="more">
+         <div class="main-text scroll-scale">
+             <span></span>
+             <h2>WELCOME! You want to know more about me?</h2>
+         </div>
+             <div class="section-service1 scroll-bottom  scrollable-div">
+ 
+                 <div class="service-box">
+                  
+                   <h3>My EDUCATION</h3> 
+                   <p>
+                    Embarking on my educational journey, I commenced with a degree program at the esteemed University of Jos, where I acquired a solid foundation in Geography and Planning. This comprehensive education provided insights into spatial dynamics and urban development, nurturing a holistic perspective crucial for addressing societal challenges.
+                    
+                    Transitioning into the realm of technology, I pursued specialized training through the Alx software engineering program, graduating as a proficient backend developer. This intensive program equipped me with expertise in software architecture and database management, laying the groundwork for a career in software development.
+                    
+                    Further augmenting my skill set, I completed frontend website development training with META, mastering the art of crafting engaging digital experiences.
+                    
+                    Presently, I am deepening my knowledge in cybersecurity through an intensive course with Google. This immersive program offers invaluable insights and hands-on experience essential for safeguarding digital assets in an increasingly interconnected world.
+                    
+                    Through these educational milestones, I continue to evolve as a versatile professional, equipped to navigate the complexities of technology and contribute meaningfully to the digital landscape.</p> 
+                   
+                 </div>
+ <hr>
+                 <div class="service-box">
+                     
+                     <h3>MY SKILLS</h3> 
+                     <p>My journey in website development has been an enriching experience marked by continuous learning and innovation. Beginning with a passion for technology, i embarked on my journey by mastering the fundamentals of web development. My backend skills were honed through rigorous training with ALX Software Engineer, where i delved deep into server-side programming languages like Python, Node.js, and PHP. This foundation empowered me to build robust and scalable web applications, handling databases and server operations with proficiency.
+ 
+                       In parallel, my frontend journey was fueled by Meta's cutting-edge technologies, where i mastered HTML, CSS, JavaScript, React and Bootstrap to craft captivating user interfaces and creative, interactive experiences. My dedication to frontend excellence ensured that every website i developed not only looked visually appealing but also functioned flawlessly across various devices and browsers.
+
+                       As cybersecurity became increasingly crucial in the digital landscape, I fortified my websites with the expertise gained from Google's cybersecurity resources. Implementing secure authentication mechanisms, encryption protocols, and rigorous testing procedures, I am ensuring that my websites are resilient against cyber threats, safeguarding user data and privacy. My cybersecurity journey with Google is still in progress, allowing me to continuously enhance my knowledge and skills in protecting digital assets. Through this ongoing education, I remain committed to staying ahead of evolving threats and implementing robust security measures to mitigate risks effectively. 
+                      .
+                       
+                       Throughout his journey, Jonathan embraced challenges as opportunities for growth, constantly seeking to expand his skill set and stay abreast of emerging technologies. His commitment to delivering high-quality, innovative solutions has earned him recognition as a proficient and reliable website developer, capable of transforming ideas into impactful online experiences.!</p> 
+                    
+                   </div>
+                   <hr>
+                   <div class="service-box">
+                    
+                     <h3>MY MISSION</h3> 
+                     <p>My mission as a website developer is to simplify and streamline life for people worldwide. I aim to create user-friendly platforms where individuals can effortlessly access what they need from the comfort of their homes, with just a few clicks on their devices. By designing intuitive interfaces and seamless navigation, I strive to make online experiences efficient and enjoyable. Through my work, I aspire to contribute to a digital landscape that empowers users, enhances accessibility, and facilitates convenience in their daily lives.</p> 
+                     
+                   </div>
+                   <hr>
+                   <div class="service-box">
+                    
+                     
+                     <h3>MY VISION</h3> 
+                     <p>My vision is to witness Africa's advancement in technology and position myself at the forefront of global tech affairs. I aspire to contribute significantly to Africa's technological growth, empowering its people and fostering innovation. I envision a future where esteemed companies like Google, Amazon, and Facebook seek my expertise, recognizing my impact and contributions to the tech industry. With dedication, innovation, and collaboration, I am committed to realizing this vision, driving Africa's emergence as a powerhouse in the world of technology.</p> 
+                    
+                   </div>
+                 </div>
+               </details>
+        </section>
+
+    
+
+       <!--------Service section------->
+
+       <section class="service" id="service">
+        <div class="main-text scroll-scale">
+            <span>What i can do for you</span>
+            <h2>My Services</h2>
+        </div>
+            <div class="section-services scroll-bottom">
+
+                <div class="service-box">
+                  <i class="bx bxs-layer service-icon"></i>
+                  <h3>Graphic Designer</h3> 
+                  <p> My exceptional creativity in graphic design speaks volume. I offer unique, captivating designs tailored to your brand's essence. With a proven track record of delivering impactful visuals, I bring fresh perspectives and imaginative solutions to every project. Elevate your brand with my innovative approach and compelling designs that leave a lasting impression. Patronize my services and enjoy professional touch in your work</p> 
+                  <div class="btn-box service-btn">
+                  
+                  </div>
+                </div>
+
+                <div class="service-box">
+                  <i class="bx bxs-code-alt service-icon"></i>
+                    <h3>Website Development</h3> 
+                    <p>Select me for your website development needs. I bring expertise in crafting dynamic, user-friendly websites that captivate audiences. With a focus on modern design principles and smooth functionality, I create immersive online experiences that drive engagement and conversion. Trust me to transform your vision into a standout digital presence that resonates with your audience and achieves your goals.! .</p> 
+                    <div class="btn-box service-btn">
+                     
+                    </div>
+                  </div>
+
+                  <div class="service-box">
+                    <i class="bx bx-desktop service-icon"></i>
+                    <h3>Online Class</h3> 
+                    <p>Enroll in my online classes for an enriching learning experience. With interactive lessons, personalized attention, and practical exercises, I ensure a comprehensive understanding of the subject matter. Whether it's academic tutoring or skill development, my approach fosters growth and success. Join me to unlock your full potential and achieve your learning objectives efficiently and effectively.</p> 
+                    <div class="btn-box service-btn">
+                     
+                    </div>
+                  </div>
+
+                  <div class="service-box">
+                   
+                    <i class='bx bx-palette service-icon'></i>
+                    <h3>UI / UX Design</h3> 
+                    <p>Engage me for UI/UX design expertise that enhances user experiences. I blend creativity with usability principles to craft intuitive interfaces that resonate with your audience. Through user research and iterative design, I prioritize user satisfaction and functionality, resulting in smooth  interactions. Elevate your digital products with my keen eye for aesthetics and commitment to delivering designs that delight and differentiate Patronize my services and enjoy professional touch in your work.</p> 
+                    <div class="btn-box service-btn">
+                  
+                    </div>
+                  </div>
+
+                  <div class="service-box">
+                    <i class='bx bx-globe  service-icon'  ></i>
+                  
+                    <h3>Map Production</h3> 
+                    <p>Choose me for precise and visually engaging map production. With meticulous attention to detail and advanced cartographic techniques, I create maps that are both informative and aesthetically pleasing. Whether it's for navigation, tourism, or data visualization, my maps are tailored to your specific needs, delivering clarity and impact. Trust me to transform complex information into clear, concise, and beautiful maps that effectively communicate your message.</p> 
+                    <div class="btn-box service-btn">
+                     
+                    </div>
+                    
+                  </div>
+
+                 
+                 
+                  
+                 
+      </div>
+
+    
+      
+       </section>
+ <!-------more-Service section------->
+       <details >
+        <summary style="z-index: 999; position: sticky;">Read More</summary>
+<div  id="more" >
+
+<div class="main-text" >
+
+
+</div>
+<div class="section-services1  scrollable-div">
+  
+    <div class="service-box">
+      <h2 style="background-color: blue; padding: 10px; margin-top: 10px;"> GLAD TO HAVE YOU HERE, YOU ARE WELCOME! </h2>
+      
+
+    <div class="service-box">
+        
+        <h3>Website Development</h3> 
+        <p>My journey in website development began with my enrollment in the ALX Software Engineering program, where I embarked on a comprehensive exploration of backend development. This immersive experience equipped me with a deep understanding of server-side technologies, databases, and APIs. Through hands-on projects and mentorship, I honed my skills in building robust, scalable, and secure web applications, ensuring they met industry standards and client requirements.
+          <details><summary style="border: none; margin-left: 40%; color: blue; font-size: 1rem; background: white; width: 10%;">Read more</summary>
+            <p style="color: gainsboro;font-family: 'Times New Roman', Times, serif;">
+          Simultaneously, I delved into frontend development with Meta, refining my abilities to create visually appealing and user-friendly interfaces. Mastering HTML, CSS, JavaScript, and modern frontend frameworks allowed me to bring design concepts to life with precision and elegance. By focusing on user experience and interface design principles, I ensured that my websites not only looked aesthetically pleasing but also provided Smooth navigation and interaction for users.
+          
+          As I near completion of my cybersecurity program with Google, I am expanding my expertise to include safeguarding digital assets against evolving threats. This additional layer of knowledge will enable me to implement robust security measures in my web projects, protecting sensitive data and ensuring the integrity of my clients' online presence.
+          
+          Collectively, these experiences have shaped me into a well-rounded website developer with a comprehensive skill set spanning backend development, frontend design, and cybersecurity. I am prepared to leverage these skills to create dynamic, secure, and visually stunning websites that meet the needs of clients and users alike.! </p> </details></p> 
+       
+      </div>
+
+      <div class="service-box">
+       
+        <h3>Online Class</h3> 
+        <p>
+          Since early 2023, my online coding classes have been a beacon of learning, fostering growth and empowerment for diverse categories of students. From beginners venturing into the world of coding to seasoned professionals seeking to enhance their skills, I've catered to a wide spectrum of learners. Through personalized instruction, interactive exercises, and comprehensive curriculum, I've facilitated a dynamic learning environment conducive to skill acquisition and mastery.
+          <details><summary style="border: none; margin-left: 40%; color: blue; font-size: 1rem; background: white; width: 10%;">Read more</summary>
+            <p style="color: gainsboro;font-family: 'Times New Roman', Times, serif;">
+          Beyond individual students, I've collaborated with organizations to deliver tailored coding courses to their workforce. By customizing content to meet specific industry needs and organizational objectives, I've equipped employees with valuable technical skills, enhancing their efficiency and productivity.
+          
+          My approach to teaching coding transcends mere instruction; it's about nurturing a community of learners, fostering collaboration, and empowering individuals to realize their potential. Through ongoing feedback, support, and mentorship, I've cultivated a culture of continuous learning and improvement.
+          
+          Moreover, my classes prioritize practical application, providing students with real-world projects and challenges to reinforce their learning. This hands-on approach not only solidifies theoretical knowledge but also cultivates problem-solving abilities and creativity.
+          
+          As the digital landscape evolves, my commitment to providing high-quality, accessible coding education remains unwavering. Whether empowering individuals to pursue new career opportunities or enabling organizations to thrive in an increasingly digital world, my online coding classes are a testament to the transformative power of education.</p></details></p> 
+        
+      </div>
+
+      <div class="service-box">
+       <h3>UI / UX Design</h3> 
+        <p>As a graduate in frontend website development, my ability to create exceptional UX/UI designs is deeply rooted in both theoretical knowledge and practical experience. Through my academic journey, I've honed my skills in HTML, CSS, JavaScript, and other relevant technologies, giving me a solid foundation in web development principles. This technical expertise allows me to seamlessly integrate design elements with functionality, ensuring a cohesive and user-friendly experience.
+               <details><summary style="border: none; margin-left: 40%; color: blue; font-size: 1rem; background: white; width: 10%;">Read More</summary>
+                <p style="color: gainsboro;font-family: 'Times New Roman', Times, serif;">
+          Moreover, my understanding of frontend development extends beyond coding; I have a keen awareness of user behavior, accessibility standards, and usability principles. By leveraging this knowledge, I craft interfaces that not only look visually appealing but also prioritize intuitive navigation and seamless interactions.
+          
+          My education has also instilled in me a strong emphasis on user research and iterative design processes. I am adept at conducting user testing, gathering feedback, and iterating on designs to continuously improve usability and meet user needs effectively.
+          
+          Furthermore, my experience working on real-world projects and collaborating with cross-functional teams has sharpened my communication and problem-solving skills. This enables me to translate client requirements and project goals into compelling UX/UI designs that exceed expectations.
+          
+          In essence, my academic background in frontend website development equips me with the technical skills, theoretical knowledge, and practical experience necessary to create engaging, user-centered interfaces that elevate digital experiences to new heights.</p></details></p> 
+       
+      </div>
+
+      <div class="service-box">
+        <h3>Map Production</h3> 
+        <p>My proficiency in producing informative maps stems from my academic background in geography and planning, where I acquired a deep understanding of spatial analysis, cartography, and geographic information systems (GIS). Armed with this knowledge, I possess a unique ability to transform complex geographical data into clear and comprehensible visual representations. Through meticulous research and analysis, I ensure that each map effectively communicates pertinent information while maintaining accuracy and clarity.
+
+               <details><summary style="border: none; margin-left: 40%; color: blue; font-family: 'Times New Roman', Times, serif; font-size: 1rem; background: white; width: 10%;">Read More</summary>
+              
+
+          Furthermore, my education has equipped me with the skills to interpret and incorporate various geographic datasets, allowing me to create maps that serve diverse purposes, from urban planning to environmental conservation. Additionally, my understanding of geographic principles enables me to consider factors such as scale, projection, and symbology, ensuring that each map meets professional standards and user requirements.
+          
+          Coupled with my unwavering commitment to excellence and a passion for design, my academic background empowers me to produce informative maps that not only convey spatial relationships but also engage and educate audiences effectively.</details></p> 
+        
+      </div>
+      
+
+
+</div>
+</details>
+
+        
+
+       <!--------Skill section------->
+
+       <section id="skills" class="skills">
+        <div class="main-text scroll-scale">
+          <span>technical and professional</span>
+          <h2>My Skills</h2>
+        </div>
+
+        <div class="skill-main ">
+          <div class="skill-left scroll-scale"> 
+
+            <h3>Technical Skills</h3>
+            <div class="skill-bar">
+              <div class="info">
+                <p>HTML</p>
+                <p>90%</p>
+              </div>
+
+              <div class="bar">
+               <span class="html"></span>
+              </div>
+            </div>
+
+            
+            <div class="skill-bar">
+              <div class="info">
+                <p>figma</p>
+                <p>80%</p>
+              </div>
+                <div class="bar">
+                  <span class="figma"></span> 
+                </div>
+             </div>
+
+            <div class="skill-bar">
+              <div class="info">
+                <p>JavaScript</p>
+                <p>72%</p>
+              </div>
+               <div class="bar">
+               <span class="javscript"></span>
+              </div>
+            </div>
+
+            <div class="skill-bar">
+              <div class="info">
+                <p>CSS</p>
+                <p>78%</p>
+              </div>
+              <div class="bar">
+                <span class="css"></span>
+              </div>
+            </div>
+
+            <div class="skill-bar">
+               <div class="info">
+                <p>PHP</p>
+                <p>70%</p>
+              </div>
+              <div class="bar">
+                <span class="php"></span>
+              </div>
+            </div>
+
+
+          </div>
+
+            <!--------Skill-right section------->
+          <div class="skill-right scroll-scale">
+           <h3>Professional Skills</h3>
+           <div class="professional">
+            <div class="box">
+              
+              <div class="circle" data-dots="80" data-percent="90"></div>
+
+              <div class="text">
+                <big>90%</big>
+                <small>Team Work</small>
+              </div>
+            </div>
+
+            <div class="box">
+              <div class="circle" data-dots="80" data-percent="80"></div>
+
+              <div class="text">
+                <big>80%</big>
+                <small>Creativity</small>
+              </div>
+            </div>
+
+            <div class="box">
+              <div class="circle" data-dots="80" data-percent="85"></div>
+
+              <div class="text">
+                <big>85%</big>
+                <small>Project Management</small>
+              </div>
+            </div>
+
+            <div class="box">
+             
+                <div class="circle" data-dots="80" data-percent="70"> </div>
+
+              <div class="text">
+                <big>70%</big>
+                <small>Communication</small>
+              </div>
+            </div>
+
+
+            
+
+      
+        </div>
+        </div>
+        <div class="btn-box " style="margin-left: 60%;" >
+          <a href="#" id="toggle-section3" class="btn" style=" color: white; ">Read More</a>
+      
+      </div>
+       </section>
+
+        <!--------more Skill section------->
+
+        <section  id="section3" class="skills">
+          
+          <div class="main-text scroll-scale">
+            <span></span>
+           
+            <h2>My Skills</h2>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Error tenetur repudiandae ad vel consectetur sint laboriosam, non accusantium maxime! Tempore laborum quia nulla doloremque hic atque amet, quisquam dicta at harum, sapiente autem temporibus magni ut eius alias! Molestias fuga repudiandae nulla sapiente maiores perspiciatis eligendi atque quam qui assumenda.
+          </div>
+  
+          <div class="skill-main ">
+            <div class="skill-left scroll-scale"> 
+  
+              <h3>Technical Skills</h3>
+              <div class="skill-bar">
+                <div class="info">
+                  <p>Bootstrap</p>
+                  <p>80%</p>
+                </div>
+  
+                <div class="bar">
+                 <span class="Bootstrap"></span>
+                </div>
+              </div>
+  
+              
+              <div class="skill-bar">
+                <div class="info">
+                  <p>Nodejs</p>
+                  <p>70%</p>
+                </div>
+                  <div class="bar">
+                    <span class="Nodejs"></span> 
+                  </div>
+               </div>
+  
+              <div class="skill-bar">
+                <div class="info">
+                  <p>python</p>
+                  <p>65%</p>
+                </div>
+                 <div class="bar">
+                 <span class="python"></span>
+                </div>
+              </div>
+  
+              <div class="skill-bar">
+                <div class="info">
+                  <p>C language</p>
+                  <p>65%</p>
+                </div>
+                <div class="bar">
+                  <span class="C-language"></span>
+                </div>
+              </div>
+  
+              <div class="skill-bar">
+                 <div class="info">
+                  <p>React</p>
+                  <p>70%</p>
+                </div>
+                <div class="bar">
+                  <span class="React"></span>
+                </div>
+              </div>
+  
+  
+            </div>
+  
+              <!--------Skill-right section------->
+            <div class="skill-right scroll-scale">
+             <h3>Professional Skills</h3>
+             <div class="professional">
+              <div class="box">
+                
+                <div class="circle" data-dots="80" data-percent="75"></div>
+  
+                <div class="text">
+                  <big>75%</big>
+                  <small>Hard Work</small>
+                </div>
+              </div>
+  
+              <div class="box">
+                <div class="circle" data-dots="80" data-percent="70"></div>
+  
+                <div class="text">
+                  <big>70%</big>
+                  <small>Comflict Management</small>
+                </div>
+              </div>
+  
+              <div class="box">
+                <div class="circle" data-dots="80" data-percent="80"></div>
+  
+                <div class="text">
+                  <big>80%</big>
+                  <small>Focus</small>
+                </div>
+              </div>
+  
+              <div class="box">
+               
+                  <div class="circle" data-dots="80" data-percent="70"> </div>
+  
+                <div class="text">
+                  <big>70%</big>
+                  <small>Dedication</small>
+                </div>
+              </div>
+  
+  
+              
+  
+        
+          </div>
+          </div>
+          <button class="close-button" id="close-section3" style="display: none; background-color: white;">Close </button>
+         </section>
+    
+
+
+         <!--------portfolio section------->
+
+         <section id="portfolio">
+          <div class="main-text scroll-scale">
+            <span>My Professional Touch</span>
+            <h2>My Latest Project</h2>
+          </div>
+
+          <div class="container">
+            <div class="filter-buttons scroll-scale">
+              <button class="button" data-filter="all">All</button>
+              <button class="button" data-filter=".product">Product</button>
+              <button class="button" data-filter=".inter">Interacting</button>
+              <button class="button" data-filter=".web">Web App</button>
+            </div>
+
+            <div class="portfolio-gallery scroll-bottom">
+              <div class="port-box mix product">
+                <div class="port-image">
+                  <img src="images/web.jpg" alt=""></div>
+                  <div class="port-content">
+                    <h3>Graphic Design</h3>
+                    <p>
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti ut dolores iusto alias sapiente est, ducimus rem enim sint aperiam!
+                    </p>
+                    <a href="#"><i class="bx bx-link-external"></i></a>
+                  </div>
+              </div>
+
+              <div class="port-box mix product">
+                <div class="port-image">
+                  <img src="images/img8.jpg" alt=""></div>
+                  <div class="port-content">
+                    <h3>Graphic Design</h3>
+                    <p>
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti ut dolores iusto alias sapiente est, ducimus rem enim sint aperiam!
+                    </p>
+                    <a href="#"><i class="bx bx-link-external"></i></a>
+                  </div>
+              </div>
+
+              <div class="port-box  mix inter">
+                <div class="port-image">
+                  <img src="images/img3.jpg" alt=""></div>
+                  <div class="port-content">
+                    <h3>Graphic Design</h3>
+                    <p>
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti ut dolores iusto alias sapiente est, ducimus rem enim sint aperiam!
+                    </p>
+                    <a href="#"><i class="bx bx-link-external"></i></a>
+                  </div>
+              </div>
+
+              <div class="port-box  mix inter">
+                <div class="port-image">
+                  <img src="images/img7.jpg" alt=""></div>
+                  <div class="port-content">
+                    <h3>Graphic Design</h3>
+                    <p>
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti ut dolores iusto alias sapiente est, ducimus rem enim sint aperiam!
+                    </p>
+                    <a href="#"><i class="bx bx-link-external"></i></a>
+                  </div>
+              </div>
+
+              <div class="port-box  mix web">
+                <div class="port-image">
+                  <img src="images/img5.jpg" alt=""></div>
+                  <div class="port-content">
+                    <h3>Graphic Design</h3>
+                    <p>
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti ut dolores iusto alias sapiente est, ducimus rem enim sint aperiam!
+                    </p>
+                    <a href="#"><i class="bx bx-link-external"></i></a>
+                  </div>
+              </div>
+
+              <div class="port-box  mix web">
+                <div class="port-image">
+                  <img src="images/portfolio4.jpg" alt=""></div>
+                  <div class="port-content">
+                    <h3>Graphic Design</h3>
+                    <p>
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti ut dolores iusto alias sapiente est, ducimus rem enim sint aperiam!
+                    </p>
+                    <a href="#"><i class="bx bx-link-external"></i></a>
+                  </div>
+              </div>
+
+            </div>
+          </div>
+         </section>
+
+
+          <!--------Contact section------->
+        <section id="contact" class="contact">
+          <div class="main-text scroll-scale">
+            <span>Ask Me Question</span>
+            <h2>Contact Me</h2>
+          </div>
+<form action="https://formspree.io/f/mzbnjrzv" method="POST" class="scale-bottom" id="myForm">
+  <input type="text" name="Full-Name" placeholder="Your Name" required>
+  <input type="email" name="Email" placeholder="Your Email" required>
+  <input type="text" name="Adress" placeholder="Your Address" required>
+  <input type="number" name="Contact-Number" placeholder="Phone Number" required>
+  <textarea name="Message" id="" cols="30" rows="10" placeholder="Your Message" required></textarea>
+  <div class="btn-box formBtn" >
+  <button type="submit" class="btn" onclick="clearForm()">Send Message</button>
+</div>
+</form>
+        </section> 
+
+         <!--------footer section------->
+         <footer>
+          <a href="#"></a>
+          <p>Copyright &copy; 2024 by Jonathan || All Right reserve</p>
+          <a href="#home"><i class="bx bx-up-arrow-alt link-home"></i></a>
+         </footer>
+         <script>
+          function clearForm() {
+            document.getElementById("myForm").reset();
+          }
+        </script>
+        <script src="script2.js"></script>
+         <script src="mixitup.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
